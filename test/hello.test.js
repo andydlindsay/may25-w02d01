@@ -1,9 +1,14 @@
 const assert = require('assert');
 const functions = require('../hello');
-
 const sayHello = functions.sayHello;
 
-const actual = sayHello('Alice');
-const expected = 'hello there Alice';
+describe('sayHello Tests', () => {
 
-assert.strictEqual(actual, expected);
+  it('can say hello to "Alice"', () => {
+    const actual = sayHello('Alice');
+    const expected = 'hello there Alice';
+
+    assert.strictEqual(actual, expected);
+  });
+
+});
