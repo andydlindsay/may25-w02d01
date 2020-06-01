@@ -7,6 +7,11 @@
 - [ ] Demonstrate the Mocha test framework
 - [ ] Demonstrate the Chai assertion library
 
+### TDD
+- Test Driven Development
+- N-Driven Development
+- Write our tests BEFORE we write our code
+- 
 
 
 
