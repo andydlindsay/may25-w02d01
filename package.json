@@ -28,6 +28,6 @@
   "homepage": "https://github.com/andydlindsay/may25-w02d01#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.2.0"
+    "mocha": "^10.2.0"
   }
 }
